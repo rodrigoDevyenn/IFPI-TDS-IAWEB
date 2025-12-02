@@ -1,0 +1,140 @@
+body {
+    color: #a7a7a7;
+    background-color: black; 
+    font-family: Arial Narrow, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+        url("background.jpg");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+}
+
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;   
+    border-radius: 50%;  
+}
+
+.cabeçalho {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    color: rgb(182, 179, 179);
+    display: flex;            
+    align-items: center;       
+    padding: 40px;             
+    gap: 90px;                 
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;          
+}
+
+.nome {
+    font-size: 60px;           
+    margin: 0;
+    font-weight: 200;
+}
+/*Parte 1(sessões de contato e sobremim)*/
+
+.parte01 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.Sobremim{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(182, 179, 179);
+}
+
+.contato {
+    flex: 1;                       
+    background-color: rgba(0, 0, 0, 0.6);        
+    border-radius: 15px;     
+    padding: 20px;                          
+    color: rgb(182, 179, 179);
+}
+/*Parte 2(sessões de Educação e habilidades )*/
+
+.parte02 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.Educação{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(182, 179, 179);
+}
+
+.Habilidades{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(182, 179, 179);
+}
+/*Parte 3(sessões de Experiencias )*/
+
+.parte03 {
+    color: rgb(182, 179, 179);
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.Experiencias{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.Ex01 {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(182, 179, 179);
+}
+
+.Ex02 {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(182, 179, 179);
+}
+
+/*Interatividade*/
+
+a {
+    color: rgb(105, 130, 154);        
+    text-decoration: none; 
+    transition: 0.3s;      
+}
+
+a:hover {
+    color: rgb(212, 172, 39);          
+    text-decoration: none; 
+}
